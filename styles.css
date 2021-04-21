@@ -1,0 +1,77 @@
+h1{
+    font-family: Paprika;
+    color: rgb(255, 255, 255,0.7);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom:-60px;
+}
+body{
+    font-family: Roboto Slab;
+    font-size: 18px;
+    color: rgb(255, 255, 255,0.7);
+    background: url(background.png) no-repeat center center fixed;
+    background-size:cover
+}
+#btnRetry{
+    visibility:hidden;
+}
+#rock{
+    background-image: url(amethyst.png);
+}
+.weapon_choice{
+    background-size: 110px 110px;
+    background-color:rgba(168, 144, 79, 0.781);
+    border:visible;
+    border-color:rgba(122, 81, 54, 0.815);
+    border-style: dashed;
+    border-width: 3.5px;
+    border-radius: 20%;
+    width: 110px;
+    height: 110px;
+    margin:0 5px 20px 5px;
+}
+#paper{
+    background-image: url(paper.png);
+}
+#scissors{
+    background-image: url(scissors.png);
+}
+.scores{
+    display: flex;
+    justify-content: center;
+    margin:0 30px 0 30px;
+}
+.weapons{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.results{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px auto;
+    max-width: 50%;
+}
+#btnRetry{
+    width:80px;
+    height:60px;
+    margin-top: 15px;
+    background-color:rgba(168, 144, 79, 0.781);
+    border:visible;
+    border-color:rgba(122, 81, 54, 0.815);
+    border-style: dashed;
+    border-width: 3.5px;
+    border-radius: 20%;
+    color: rgb(82, 53, 33);
+    font-size: 16px;
+    font-family: Roboto Slab;
+}
+#btnRetry:hover{
+    box-shadow: 0 0 0 4px rgba(122, 81, 54, 0.815);
+}
+.weapon_choice:focus{
+    box-shadow: 0 0 0 4px rgba(122, 81, 54, 0.815);
+}
